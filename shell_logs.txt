@@ -1,0 +1,500 @@
+   33  make clean
+   34  make
+   35  bin/test-se -v 2
+   36  make week2
+   37  bin/test-se -v 2
+   38  make week2
+   39  make week2
+   40  bin/test-se -v 2
+   41  make week2
+   42  bin/test-se -v 2
+   43  bin/test-se -w 2
+   44  make week2
+   45  bin/test-se -w 2
+   46  bin/test-se -v 2
+   47  make week2
+   48  bin/test-se -v 2
+   49  make week2
+   50  bin/test-se -v 2
+   51  make week2
+   52  bin/test-se -v 2
+   53  make week2
+   54  bin/test-se -v 2
+   55  make week2
+   56  bin/test-se -v 2
+   57  make week2
+   58  bin/test-se -v 2
+   59  make week2
+   60  bin/test-se -v 2
+   61  make week2
+   62  bin/test-se -v 2
+   63  bin/test-se -v 2
+   64  make week2
+   65  bin/test-se -v 2
+   66  make week2
+   67  make
+   68  bin/test-se -v 2
+   69  make week2
+   70  bin/test-se -v 2
+   71  make week2
+   72  bin/test-se -v 2
+   73  make week2
+   74  bin/test-se -v 2
+   75  bin/test-se -v 1
+   76  make week1
+   77  bin/test-hw
+   78  make week1
+   79  bin/test-hw
+   80  make clean
+   81  make
+   82  make week2
+   83  make week2
+   84  make week2
+   85  bin/test-se -v 2
+   86  make week2
+   87  bin/test-se -v 2
+   88  make week2
+   89  bin/test-se -v 2
+   90  make week1
+   91  bin/test-hwA
+   92  make week2
+   93  bin/test-hw
+   94  bin/test-se -v 2
+   95  make week2
+   96  bin/test-se -v 2
+   97  make week2
+   98  bin/test-se -v 2
+   99  make clean
+  100  make week2
+  101  bin/test-se -v 2
+  102  make week2
+  103  bin/test-se -v 2
+  104  make week2
+  105  bin/test-se -v 2
+  106  make week2
+  107  bin/test-se -v 2
+  108  make week2
+  109  gdb --args ./bin/test-se testcases/mem/pipeminus/adrp
+  110  bin/test-se -v 2
+  111  bin/test-se -v 1
+  112  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  113  bin/se-ref-wk2 -i testcases/alu/pipeminus/cmn -v -l 5
+  114  make week2
+  115  make week2
+  116  make week2
+  117  bin/test-se -v 2
+  118  bin/se-ref-wk2 -i testcases/alu/pipeminus/cmn -v -l 5
+  119  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  120  make week2
+  121  bin/test-se -v 2
+  122  bin/se-ref-wk2 -i testcases/alu/pipeminus/cmn -v -l 5
+  123  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  124  make week2
+  125  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  126  bin/se-ref-wk2 -i testcases/alu/pipeminus/cmn -v -l 5
+  127  make week2
+  128  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  129  bin/se-ref-wk2 -i testcases/alu/pipeminus/cmn -v -l 5
+  130  bin/test-se -v 2
+  131  make week2
+  132  bin/se-ref-wk2 -i testcases/alu/pipeminus/cmn -v -l 5
+  133  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  134  bin/test-se -v 2
+  135  make week2
+  136  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  137  bin/se-ref-wk2 -i testcases/alu/pipeminus/cmn -v -l 5
+  138  bin/test-se -v 2
+  139  make week2
+  140  bin/se-ref-wk2 -i testcases/alu/pipeminus/cmn -v -l 5
+  141  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  142  bin/test-se -v 2
+  143  make week2
+  144  bin/test-se -v 2
+  145  bin/test-se -v 1
+  146  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  147  bin/test-se -v 1
+  148  make week2
+  149  bin/test-se -v 1
+  150  bin/se -i testcases/alu/pipeminus/cmn -v -l 5
+  151  bin/test-se -v 1
+  152  bin/se -i testcases/branch/pipeminus/bcond -v -l 5
+  153  bin/se-ref-wk2 -i testcases/branch/pipeminus/bcond -v -l 5
+  154  bin/se -i testcases/branch/pipeminus/bcond -v -l 5
+  155  bin/se-ref-wk2 -i testcases/branch/pipeminus/bcond -v -l 5
+  156  bin/se -i testcases/branch/pipeminus/bcond -v -l 5
+  157  make week2
+  158  bin/test-se -v 1
+  159  bin/se -i testcases/branch/pipeminus/bcond -v -l 5
+  160  make week2
+  161  bin/test-se -v 1
+  162  make week2
+  163  make week2
+  164  make week2
+  165  bin/test-se -v 1
+  166  make week2
+  167  make week2
+  168  bin/test-se -v 1
+  169  make week2
+  170  bin/test-se -v 1
+  171  make week2
+  172  bin/test-se -v 1
+  173  make week2
+  174  bin/test-se -v 1
+  175  make week2
+  176  bin/test-se -v 1
+  177  make week2
+  178  bin/test-se -v 1
+  179  bin/test-se -v 1
+  180  make week2
+  181  bin/test-se -v 1
+  182  make week2
+  183  bin/test-se -v 1
+  184  bin/se -i testcases/alu/pipeminus/lsr_rr -v -l 5
+  185  bin/se-ref-wk2 -i testcases/alu/pipeminus/lsr_rr -v -l 5
+  186  bin/se -i testcases/alu/pipeminus/lsr_rr -v -l 5
+  187  make week2
+  188  bin/test-se -v 1
+  189  make week2
+  190  bin/test-se -v 1
+  191  make week2
+  192  bin/se -i testcases/alu/pipeminus/lsr_rr -v -l 5
+  193  make week2
+  194  bin/test-se -v 1
+  195  make week2
+  196  bin/test-se -v 1
+  197  make week2
+  198  bin/test-se -v 1
+  199  make week2
+  200  bin/test-se -v 1
+  201  make week2
+  202  bin/test-se -v 1
+  203  bin/se -i testcases/alu/pipeminus/lsr_rr -v -l 5
+  204  bin/se-ref-wk2 -i testcases/alu/pipeminus/lsr_rr -v -l 5
+  205  make week2
+  206  bin/test-se -v 1
+  207  bin/se-ref-wk2 -i testcases/exceptions/pipeminus/bad_insn_1 -v -l 5
+  208  bin/se -i testcases/exceptions/pipeminus/bad_insn_1 -v -l 5
+  209  make week2
+  210  make week2
+  211  bin/test-se -v 1
+  212  bin/test-se -w 2
+  213  bin/test-se -w 2
+  214  make week2
+  215  bin/test-se -w 2
+  216  make week2
+  217  bin/test-se -w 2
+  218  make week2
+  219  bin/test-se -w 2
+  220  make week2
+  221  bin/test-se -w 2
+  222  git status
+  223  make week1
+  224  bin/test-hw
+  225  git status
+  226  git add .
+  227  git commit -m "week2 done"
+  228  git status
+  229  git push
+  230  make week2
+  231  bin/test-se -w 2
+  232  git status
+  233  git add .
+  234  git commit -m "week2 done"
+  235  git push
+  236  make week3
+  237  bin/test-se -h
+  238  bin/test-se -w 3
+  239  make week3
+  240  bin/test-se -w 3
+  241  make week3
+  242  bin/test-se -w 3
+  243  ./bin/se -p -v 2 tests/week3/basic_1.o | head -100
+  244  make clean
+  245  make week3
+  246  make all
+  247  make week3
+  248  bin/test-se -w 3
+  249  make week3
+  250  make all
+  251  bin/test-se -w 3\
+  252  bin/test-se -w 3
+  253  make week3
+  254  make all
+  255  make all
+  256  make week3
+  257  bin/test-se -w 3
+  258  bin/test-se -v 3
+  259  bin/test-se -h 3
+  260  bin/test-se -v 0
+  261  bin/test-se -wv 3
+  262  bin/test-se -w 3 -v
+  263  ./bin/se -p -v 2 tests/week3/basic_1.o
+  264  ./bin/se 
+  265  cleaer
+  266  clear
+  267  make all
+  268  make week3
+  269  make clean
+  270  make all
+  271  make week3
+  272  make all
+  273  bin/test-se -w 3
+  274  bin/test-se -w 2
+  275  make all
+  276  bin/test-se -w 2
+  277  make clean
+  278  make test2
+  279  make week3
+  280  bin/test-se -w 3
+  281  make week3
+  282  bin/test-se -w 3
+  283  make week3
+  284  make week3
+  285  make week3
+  286  make week3
+  287  bin/test-se -w 3
+  288  make week3
+  289  bin/test-se -w 3
+  290  make week3
+  291  bin/test-se -w 3
+  292  make week3
+  293  bin/test-se -w 3
+  294  make week3
+  295  bin/test-se -w 3
+  296  make week3
+  297  make week3
+  298  bin/test-se -w 3
+  299  make week3
+  300  bin/test-se -w 3
+  301  make week3
+  302  make week3
+  303  bin/test-se -w 3
+  304  make week3
+  305  bin/test-se -w 3
+  306  make all
+  307  bin/test-se -w 3
+  308  make week3
+  309  bin/test-se -w 3
+  310  make clean
+  311  make week3
+  312  bin/test-se -w 3
+  313  bin/test-se -v 3
+  314  make week2
+  315  bin/test-se -v 3
+  316  bin/test-se -v 3
+  317  bin/test-se -w 3
+  318  make clean
+  319  make week3
+  320  bin/test-se -w 3
+  321  gdb bin/se
+  322  ./bin/test-se -w 3 | grep "FAIL"
+  323  ./bin/test-se -w 3
+  324  ./bin/test-se -w 3
+  325  ./bin/test-se -w
+  326  ./bin/test-se -v
+  327  ./bin/test-se -v 1
+  328  ./bin/test-se -w 3 -v 1
+  329  cat testcases/exceptions/hazard/bad_mem_1.od | grep "400150\|40015c"
+  330  make week3
+  331  ./bin/test-se -w 3 -v 1
+  332  bin/se-ref-wk3 -i testcases/alu/hazard/cmp -v -l 5
+  333  bin/se -i testcases/alu/hazard/cmp -v -l 5
+  334  make week3
+  335  ./bin/test-se -w 3 -v 1
+  336  bin/se -i testcases/exceptions/hazard/bad_insn_1 -v -l 5
+  337  bin/se-ref-wk3 -i testcases/exceptions/hazard/bad_insn_1 -v -l 5
+  338  make week3
+  339  ./bin/test-se -w 3 -v 1
+  340  bin/se-ref-wk3 -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  341  bin/se -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  342  make week3
+  343  ./bin/test-se -w 3 -v 1
+  344  make week3
+  345  ./bin/test-se -w 3 -v 1
+  346  make week3
+  347  ./bin/test-se -w 3 -v 1
+  348  bin/se -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  349  bin/se-ref-wk3 -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  350  make week3
+  351  ./bin/test-se -w 3 -v 1
+  352  bin/se-ref-wk3 -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  353  bin/se -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  354  make week3
+  355  ./bin/test-se -w 3 -v 1
+  356  make week3
+  357  ./bin/test-se -w 3 -v 1
+  358  make week3
+  359  ./bin/test-se -w 3 -v 1
+  360  make week3
+  361  ./bin/test-se -w 3 -v 1
+  362  bin/se-ref-wk3 -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  363  bin/se -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  364  make week3
+  365  ./bin/test-se -w 3 -v 1
+  366  bin/se -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  367  bin/se-ref-wk3 -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  368  make week3
+  369  ./bin/test-se -w 3 -v 1
+  370  bin/se-ref-wk3 -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  371  bin/se -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  372  make week3
+  373  make week3
+  374  ./bin/test-se -w 3 -v 1
+  375  ./bin/test-se -w 3 -v 1
+  376  make week3
+  377  bin/se -i testcases/exceptions/hazard/bad_mem_1 -v -l 5
+  378  ./bin/test-se -w 3 -v 1
+  379  ls
+  380  git clone git@github.com:emilianorios2024/round2practice.git
+  381  git clone git@github.com:emilianorios2024/round2practice.git
+  382  ls
+  383  git clone git@github.com:emilianorios2024/round2practice.git
+  384  ssh-keygen -t ed25519
+  385  ssh-keygen -t ed25519
+  386  cat /u/emiliano/.ssh/id_ed25519.pub
+  387  git clone git@github.com:emilianorios2024/round2practice.git
+  388  eval `ssh-agent -s`
+  389  git clone git@github.com:emilianorios2024/round2practice.git
+  390  git clone git@github.com:emilianorios2024/round2practice.git
+  391  git clone git@github.com:emilianorios2024/round2practice.git
+  392  git clone git@github.com:emilianorios2024/round2practice.git
+  393  ls
+  394  git clone git@github.com:emilianorios2024/bruh4.git
+  395  git clone git@github.com:emilianorios2024/random.git
+  396  ls
+  397  cd random/
+  398  ls
+  399  cd f2025e2-d-master/
+  400  ls
+  401  make subway
+  402  make cheba
+  403  chmod +x ref_sb
+  404  make cheba
+  405  ./bin/sb
+  406  ./bin/sb -i testcases/catdel.trace
+  407  gdb bin/sb
+  408  make snarfs
+  409  make potbelly
+  410  gdb bin/sb
+  411  make snarfs
+  412  make subway
+  413  ./bin/sb -i testcases/catdel.trace
+  414  make snarfs
+  415  make potbelly
+  416  gdb bin/sb
+  417  gdb bin/sb
+  418  make snarfs
+  419  make subway
+  420  ./bin/sb -i testcases/catdel.trace
+  421  make snarfs
+  422  make subway
+  423  ./bin/sb -i testcases/catdel.trace
+  424  make snarfs
+  425  make subway
+  426  ./bin/sb -i testcases/catdel.trace
+  427  make snarfs
+  428  make potbelly
+  429  gdb bin/sb
+  430  gdb bin/sb
+  431  make snarfs
+  432  make subway
+  433  ./bin/sb -i testcases/catdel.trace
+  434  make snarfs
+  435  make potbelly
+  436  gdb bin/sb
+  437  make snarfs
+  438  make subway
+  439  make snarfs
+  440  make subway
+  441  ./bin/sb -i testcases/catdel.trace
+  442  make snarfs
+  443  make subway
+  444  ./bin/sb -i testcases/catdel.trace
+  445  make snarfs
+  446  make subway
+  447  ./bin/sb -i testcases/catdel.trace
+  448  make subway
+  449  make snarfs
+  450  make subway
+  451  ./bin/sb -i testcases/catdel.trace
+  452  make cheba
+  453  make subway
+  454  ./bin/sb -i testcases/catdel.trace
+  455  make snarfs
+  456  make subway
+  457  ./bin/sb -i testcases/catdel.trace
+  458  make snarfs
+  459  make subway
+  460  ./bin/sb -i testcases/catdel.trace
+  461  make snarfs
+  462  make subway
+  463  ./bin/sb -i testcases/catdel.trace
+  464  make snarfs
+  465  make subway
+  466  ./bin/sb -i testcases/catdel.trace
+  467  make snarfs
+  468  make potbelly
+  469  gdb bin/sb
+  470  make snarfs
+  471  make subway
+  472  ./bin/sb -i testcases/catdel.trace
+  473  make cheba
+  474  make potbelly
+  475  make snarfs
+  476  ./bin/sb -i testcases/catdel.trace
+  477  make subway
+  478  ./bin/sb -i testcases/catdel.trace
+  479  make cheba
+  480  make snarfs
+  481  make potbelly
+  482  gdb bin/sb
+  483  make snarfs
+  484  make subway
+  485  ./bin/sb -i testcases/catdel.trace
+  486  make snarfs
+  487  make subway
+  488  ./bin/sb -i testcases/catdel.trace
+  489  make snarfs
+  490  ./bin/sb -i testcases/catdel.trace
+  491  ./bin/sb -i testcases/catdel.trace
+  492  make subway
+  493  ./bin/sb -i testcases/catdel.trace
+  494  history > shell_logs.txt
+  495  git status
+  496  git add .
+  497  git commit -m "done"
+  498  git push
+  499  git clone git@github.com:emilianorios2024/e.git
+  500  ls
+  501  make subway
+  502  ./bin/sb 
+  503  ./bin/sb -i testcases/catdel.trace 
+  504  make subway
+  505  makecheba
+  506  make cheab
+  507  make cheba
+  508  chmod +x ref_sb
+  509  make cheba
+  510  ./bin/sb -i testcases/catdel.trace 
+  511  gdb bin/sb
+  512  make snarfs
+  513  make potbelly
+  514  gdb bin/sb
+  515  make snarfs
+  516  make subway
+  517  ./bin/sb -i testcases/catdel.trace 
+  518  make cheba
+  519  make snarfs
+  520  make subway
+  521  make snarfs
+  522  make potbelly
+  523  gdb bin/sb
+  524  ./bin/sb -i testcases/catdel.trace 
+  525  gdb bin/sb
+  526  make snarfs
+  527  make subway
+  528  ./bin/sb -i testcases/catdel.trace 
+  529  make subway
+  530  ./bin/sb -i testcases/catdel.trace 
+  531  make cheba
+  532  history > shell_logs.txt
